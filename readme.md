@@ -9,7 +9,7 @@ Assumptions:
 - I used a hard-coded number for the rate-limit number (10) but its better be extracted from the rate-limit request
 
 Disclaimer
-- I added 2 lines of code post time and marked them with `#overtime` comment just for the code to run 
+- I added 2 lines of code post time and marked them with `#overtime` comment just for the code to run. A better solution would be to dump each batch result to results-file in order to avoid extensive memory usage.
 
 Extras
 
